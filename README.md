@@ -24,10 +24,18 @@ You can see a similar effect when you train a decoder on only the bottom half of
 
 Overall, this shows that we have sucessfully isolated representations of certain features to one side of the latent space with representations of other features to the other. This can be shown more robustly through comparing measurements of MAE losses for both the top and bottom decoder on each digit in the validation set:
 
-![compare_certifiers](https://github.com/user-attachments/assets/7ab731ab-f624-4b68-82f3-5abc0b6eae36)
+<p align="center">
+  <img width="600" src="https://github.com/user-attachments/assets/7ab731ab-f624-4b68-82f3-5abc0b6eae36">
+</p>
 
-## Key Features
+## Training
 
-- Implementation of gradient routing for MNIST autoencoder
-- Replication of the architecture described in Section 4.1
-- Visualization for analyzing digit reconstructions
+The process to train the encoder/decoders should be almost the same as outlined in the original paper. Correlation loss is described in the appendix of the paper but is not included in the repository. Note that I also measure an L1 loss for the output of the decoder (as described in the original paper). In the paper, the authors train for 200 epochs while I trained for 400 epochs to get the results shown above. I will note that returns after epoch 200 are minimal.
+
+<p align="center">
+  <img width="600" src="https://github.com/user-attachments/assets/e8647fd8-a522-463e-a006-788f45362fba">
+</p>
+
+(Note that the purple line in image above represents the decoder loss for the bottom decoder. The reason that there is no line for the top decoder is because their losses are roughly the same and the lines would overlap.)
+
+## Theory of Change
