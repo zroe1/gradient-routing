@@ -6,7 +6,7 @@ The respository is currently being updated with more experiments and replication
 
 ## Overview
 
-Gradient routing is a training method that isolates capabilities to specific subregions of a neural network by applying data-dependent, weighted masks to gradients during backpropagation. This implementation demonstrates how gradient routing can split MNIST digit representations into distinct halves of an autoencoder's latent space.
+Gradient routing is a training method that isolates capabilities to specific regions of a neural network by applying data-dependent masks to stop gradients in certain regions of the network during backpropagation. This implementation demonstrates how gradient routing can split MNIST digit representations into distinct halves of an autoencoder's latent space.
 
 ## Key Features
 
