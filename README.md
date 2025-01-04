@@ -46,7 +46,7 @@ There are two main reasons why I find this research direction personally interes
 2. Related to #1, there are early results indicating that when we localize computation for one subject, the model routes realted concepts to the same area. This indicates that gradient routing is scalable to domains where there is limited labeled data.
 3. It is a glimpse into a world where we have modules in models that we can turn on and off. If we are concerned that an area of a model is related to dangerous bahavior, we could shut it off.
 
-In my opinion extending #1 and trying to test #2 to practically increase safety in LLMs of at least 7 billion parameters are the most promising research directions. 
+In my opinion, extending #1 and trying to test #2 to practically increase safety in LLMs of at least 7 billion parameters are the most promising research directions. 
 
 ## Acknowledgments
 
