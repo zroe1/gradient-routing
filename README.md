@@ -44,4 +44,21 @@ There are two main reasons why I find this research direction personally interes
 
 1. Gradient routing can make models more interpretable. When we localize computation related to certain features, we will know where to find them later we want to understand more about a model's internals.
 2. Related to #1, there are early results indicating that when we localize computation for one subject, the model routes realted concepts to the same area. This indicates that gradient routing is scalable to domains where there is limited labeled data.
-3. It is a glimpse into a world where we have modules in models that we can turn on and off. If we are concerned that an area of a model is related to dangerous bahavior, we could shut it off. 
+3. It is a glimpse into a world where we have modules in models that we can turn on and off. If we are concerned that an area of a model is related to dangerous bahavior, we could shut it off.
+4. 
+
+## Acknowledgments
+
+If you use any of the ideas from this repository in your own work please cite the original paper:
+
+```
+@article{cloud2024gradient,
+	title={Gradient Routing: Masking Gradients to Localize Computation in Neural Networks},
+	url={https://arxiv.org/abs/2410.04332v1},
+	journal={arXiv.org},
+	author={Cloud, Alex and Goldman-Wetzler, Jacob and Wybitul, Evžen and Miller, Joseph and Turner, Alexander Matt},
+	year={2024},
+}
+```
+
+Made with ❤️ and PyTorch
