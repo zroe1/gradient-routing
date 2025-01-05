@@ -2,7 +2,7 @@
 
 This repository contains an implementation of the paper ["Gradient Routing: Masking Gradients to Localize Computation in Neural Networks"](https://arxiv.org/abs/2410.04332). The code specifically replicates the MNIST autoencoder experiments described in Section 4.1 of the paper. Some training details differ, but this should give a solid start for building on the experiments in the paper.
 
-<b>Repository Status:</b> The respository is currently being updated with more experiments and replications. The plan is to eventually use this respository as starter code for research projects related to gradient routing for UChicago's AI Safety club. Pull requests are welcome!
+<b>Repository Status:</b> The respository is currently being updated with more experiments and replications. The plan is to eventually use this respository as starter code for research projects related to gradient routing for UChicago's AI safety club. Pull requests are welcome!
 
 ## Overview
 
